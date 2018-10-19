@@ -1,3 +1,5 @@
 # dos_sum
-#This script can sum many ions' special orbit density of states, you can specify the 's,p,d' orbit to calculate.
-#Numpy is needed in this script!
+
+Sum some ions' special orbit's density of states, we can specify the 's,p,d' orbit to calculate.
+
+Numpy is needed for this script.
