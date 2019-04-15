@@ -61,7 +61,7 @@ for ion in i_num:
 		    out_s=open('dos'+ion+'.s','w')
 		    for line in dos: 
 		        nums = line.split()
-			s = float(nums[1])
+			s = float(nums[0])
 			print >>out_s,s
 		    out_s.close()
 		finally:
@@ -77,7 +77,7 @@ for ion in i_num:
 		    out_p=open('dos'+ion+'.p','w')
 		    for line in dos: 
 		        nums = line.split()
-			p = float(nums[2])+float(nums[3])+float(nums[4])
+			p = float(nums[1])+float(nums[2])+float(nums[3])
 			print >>out_p,p
 		    out_p.close()
 		finally:
@@ -93,7 +93,7 @@ for ion in i_num:
 		    out_d=open('dos'+ion+'.d','w')
 		    for line in dos: 
 		        nums = line.split()
-			d = float(nums[5])+float(nums[6])+float(nums[7])+float(nums[8])+float(nums[9])
+			d = float(nums[4])+float(nums[5])+float(nums[6])+float(nums[7])+float(nums[8])
 			print >>out_d,d
 		    out_d.close()
 		finally:
